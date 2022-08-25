@@ -4,7 +4,11 @@ import  ReactDOM  from "react-dom";
 const App = function() {
     return (
         <div>
-            Hello React!!
+            <label>
+                Enter username:
+            </label>
+            <input type="text" />
+            <button style={{backgroundColor:'red'}}>Enter</button>
         </div>
     )
 }
