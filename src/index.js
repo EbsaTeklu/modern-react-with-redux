@@ -5,7 +5,7 @@ const App = function() {
     const btnName="hello"
     return (
         <div>
-            <label id="name" className="label">
+            <label id="name" className="label" htmlFor="label"> 
                 Enter username:
             </label>
             <input type="text" />
